@@ -12,7 +12,7 @@ spec:
   logo: logo.png
   settingName: plugin-robots-settings
   configMapName: plugin-robots-settings
-  homepage: https://github.com/halo-dev/plugin-starter
+  homepage: https://github.com/d2814/plugin-robots
   displayName: "Robots"
   description: "为站点提供Robots.txt"
   license:
