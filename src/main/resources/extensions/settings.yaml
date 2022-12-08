@@ -1,0 +1,14 @@
+apiVersion: v1alpha1
+kind: Setting
+metadata:
+  name: plugin-robots-settings
+spec:
+  forms:
+    - group: basic
+      label: Settings
+      formSchema:
+        - $formkit: textarea
+          name: robots_content
+          label: "Robots-Text"
+          value: "User-agent: * \nAllow: /"
+          help: "default: User-agent: * | Allow: /"

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="halo-2.0.0-SNAPSHOT-plain">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/halo-2.0.0-SNAPSHOT-plain.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: PluginRobots
+spec:
+  enabled: true
+  version: 1.0.0
+  requires: ">=2.0.0"
+  author:
+    name: Eternal
+    website: https://www.binbindo.com/
+  logo: logo.png
+  settingName: plugin-robots-settings
+  configMapName: plugin-robots-settings
+  homepage: https://github.com/halo-dev/plugin-starter
+  displayName: "Robots"
+  description: "为站点提供Robots.txt"
+  license:
+    - name: "MIT"
