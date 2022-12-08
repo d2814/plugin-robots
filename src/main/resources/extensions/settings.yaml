@@ -7,8 +7,8 @@ spec:
     - group: basic
       label: Settings
       formSchema:
-        - $formkit: textarea
+        - $formkit: code
           name: robots_content
           label: "Robots-Text"
-          value: "User-agent: * \nAllow: /"
+          value: "User-agent: *\nAllow: /"
           help: "default: User-agent: * | Allow: /"
